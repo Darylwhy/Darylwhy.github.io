@@ -225,14 +225,14 @@ const btnSubmit=document.querySelector("#btnSubmit");
 const scorebox=document.querySelector("#scorebox");
 var q1,q2,q3,score=0;
 function CheckAns(){    
-    //read the value of the selected radio button for q1
+
     q1=document.querySelector("input[name='q1']:checked").value;
 
-    //read the value of the selected radio button for q2 
+  
     q2=document.querySelector("input[name='q2']:checked").value;
 
     q3=document.querySelector("input[name='q3']:checked").value;
-    score=0; //reset score to 0, check ans and give score if correct
+    score=0; 
     if(q1=="Ostrich")score++;
     if(q2=="Cassowary")score++;
     if(q3=="Emu")score++;
