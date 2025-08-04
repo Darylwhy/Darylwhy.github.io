@@ -185,8 +185,9 @@ transition: all .5s;}
 100%{rotate:0deg}
 }
 #emuID.anim1{ animation: emuFrames .4s;}
-
+#qrcode{max-width: 100px;max-height: 100px;}
 @media screen and (max-width:800px){
+    #qrcode{display: none;}
 /*make a menu items vertical*/
 li{display:block;}
 /* unhide menu icon */
